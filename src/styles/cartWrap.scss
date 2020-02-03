@@ -1,0 +1,91 @@
+/*############################################
+----------------- Cart Wrap -----------------
+############################################*/
+
+#cart-wrap {
+  h4 {
+    color: #5B1295;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+  }
+  .edit p {
+    position: absolute;
+    margin-left: 230px; /* 240px */
+    margin-top: -18px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  img {
+    width: 22%;
+    height: 22%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #98999B;
+    font-weight: 100;
+    font-size: 16px;
+  }
+}
+
+.name {
+  color: #98999B;
+  font-weight: 100;
+  font-size: 16px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.price {
+  color: #98999B;
+  font-weight: 100;
+  font-size: 16px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.color {
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px;
+  position: absolute;
+  color: #515153;
+}
+
+.quantity {
+  float: left;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  color: #515153;
+}
+
+.subtotal, .shipping, .taxes {
+  margin-top: -30px;
+}
+
+.summary {
+  margin-top: -29px;
+  color: #5B1295;
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  width: 85%;
+  margin-left: 22px;
+}
