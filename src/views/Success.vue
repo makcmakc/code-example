@@ -3,7 +3,7 @@
 		<form class="form">
 			<h3>Thank you for your order!</h3>
 			<h4>Order Number is: <span id="order-number"> {{ orderNumber }}</span></h4>
-			<p>You will recieve an email confirmation <br> shortly to <span id="email-confirm">{{ email }}</span></p>
+			<p>You will recieve an email confirmation <br> shortly to <span id="email-confirm"> Your E-mail{{ email }}</span></p>
 
 			<div class="whitespace"></div>
 
@@ -34,7 +34,7 @@
 		},	
 		mounted() {	
 			const arr = []
-			for( var i = 0; i < 9; i++){
+			for( let i = 0; i < 9; i++){
 				arr.push(this.getRandom())
 			}
 			return this.orderNumber = arr.join('')

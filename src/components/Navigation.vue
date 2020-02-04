@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div v-if="navigationNone">
         <ul>
           <router-link to="/" id="shipping">Shipping</router-link>
 
@@ -24,15 +24,10 @@
 <script>
 	export default {
 		name: 'navigation',
+    props: ['navigationNone']
 	};
 </script>
 
 
 <style>
-	.none {
-    display: none;
-  }
-  .navigation-block {
-    display: block;
-  }  
 </style>
